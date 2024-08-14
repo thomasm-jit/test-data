@@ -1,0 +1,6 @@
+library("ggplot2")
+
+data <- mtcars
+
+ggplot(data, aes(x = hp, y = mpg)) + geom_point() + labs(title = "MPG vs. Horsepower", x = "Horsepower", y = "MPG")
+
